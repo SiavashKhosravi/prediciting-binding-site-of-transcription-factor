@@ -1,2 +1,3 @@
-# prediciting-binding-site-of-transcription-factor
-random forest model was used to predict the binding site of a transcription factor.
+# prediciting-binding-site-of-a transcription-factor
+Here I want to investigate if it is possible to predict the DNA binding site of a tranciption factor. Transcription factors are important factors in controling genes expressoin. Binding of transcription factors to DNA are sequence specific. Therefore, finding binding sites is crucial to elucidate the function each Transcription factor.
+a list of DNA sequences was downloaded from Kaggle project. First  DNA sequences were transformed into k-mers. Using K-mers the features of the DNA sequences were identified. Later random forest model was applied on the features to predict the binding site of a transcription factor.
